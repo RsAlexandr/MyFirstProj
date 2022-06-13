@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Addition {
     public static void main(String[] args){
 
-        Scanner myLittleScaner = new Scanner(System.in);
+        Scanner myLittleScaner = new Scanner(System.in); // Git is working
         int number1;
         int number2;
         int sum;
