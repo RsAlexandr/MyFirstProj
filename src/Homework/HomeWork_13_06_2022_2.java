@@ -1,3 +1,5 @@
+package Homework;
+
 import java.util.Scanner;
 
 public class HomeWork_13_06_2022_2 {

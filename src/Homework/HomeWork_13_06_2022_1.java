@@ -1,6 +1,8 @@
+package Homework;
+
 import java.util.Scanner;
 
-public class HomeWork_13_06_2022 {
+public class HomeWork_13_06_2022_1 {
     public static void main(String[] args) {
 
         //Напишите калькулятор, который получает числа введенные пользователем, и производит с ними заданные действия – поиск суммы / среднего значения/ сравнение.
