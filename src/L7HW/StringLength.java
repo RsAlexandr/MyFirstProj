@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class StringLength {
     public static void main(String[] args) { //   Найти самое длинное слово в предложении
         Scanner str = new Scanner(System.in);
-        //String text = str.nextLine();
-        String text = "Hello, world! I love you!";
-        System.out.println(text);
-        String array[] = text.split(" ,");
+        String text = str.nextLine();
+        String longestworld;
 
+        String array[] = text.split("[, .!?]");
+
+        longestworld = array[0];
         for (int i = 0; i < array.length; i++){
-            System.out.println(array[i].length());
-
+            if (array[i].length() > longestworld.length()){
+                longestworld = array[i];
+            }
         }
+      System.out.println("Самое длинное слово в предложении - это " + longestworld);
     }
 }
